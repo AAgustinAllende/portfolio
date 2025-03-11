@@ -1,4 +1,3 @@
-import Image from "next/image";
 import CoverParticles from "./components/CoverParticles";
 import TransitionPage from "./components/TransitionPage";
 import Introduction from "./components/Introduction";
