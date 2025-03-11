@@ -1,5 +1,5 @@
 "use client";
-import CountUp from "react-countup";
+
 import { dataCounter } from "../../../data";
 
 const CounterServices = () => {

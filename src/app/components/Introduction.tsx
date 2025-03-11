@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
 
 const Introduction = () => {
     return (
@@ -42,17 +43,17 @@ const Introduction = () => {
                         Apasionado por la tecnología y el desarrollo web. Con motivación y compromiso, busco una oportunidad para demostrar mi capacidad y seguir aprendiendo en un entorno desafiante.
                     </p>
                     <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
-                        <a href="/portfolio" 
+                        <Link href="/portfolio" 
                         className="px-3 py-2 transition-all border-2 cursor-pointer
                         text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                             Ver proyectos
-                        </a>
-                        <a href="/CV-AGUSTIN_ALLENDE.docx"
+                        </Link>
+                        <Link href="/CV-AGUSTIN_ALLENDE.docx"
                         download="CV-AGUSTIN_ALLENDE.docx" 
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-blue-300
                         text-md w-fit rounded-xl hover:shadow-xl hover:shadow-blue-300/50">
                             Descargar CV
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

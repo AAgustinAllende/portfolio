@@ -1,7 +1,7 @@
 import React from 'react'
 import MotionTransition from './TransitionComponent'
 import { socialNetworks } from '../../../data'
-import { a } from 'framer-motion/client'
+import  Link  from 'next/link'
 
 const Header = () => {
   return (
@@ -11,20 +11,20 @@ const Header = () => {
             <h1 className='my-3 text-4xl font-bold text-center md:text-left'>
                 Agustin
                 <span className='text-secondary'>
-                    Allende
+                     Allende
                 </span>
             </h1>
             
             </a>
             <div className='flex items-center justify-center gap-7'>
                 {socialNetworks.map(({logo,src, id})=>(
-                    <a key={id} 
+                    <Link key={id} 
                     href={src}
                     target='_blank'
                     className='transition-all duration-300'
                     >
                         {logo}
-                    </a>
+                    </Link>
                 ))}
 
             </div>

@@ -3,6 +3,7 @@ import React from 'react'
 import { itemsNavbar } from '../../../data'
 import { usePathname } from 'next/navigation'
 import MotionTransition from './TransitionComponent'
+import Link from 'next/link'
 
 
 const Navbar = () => {
@@ -19,9 +20,9 @@ const Navbar = () => {
              cursor-pointer !hover:bg-blue-300 
              ${router === item.link && 'bg-secondary'}`}
            >
-              <a href={item.link} className="flex items-center">
+              <Link href={item.link} className="flex items-center">
                 {item.icon}
-              </a>
+              </Link>
             </div>
           ))}
         </div>
