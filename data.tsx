@@ -185,6 +185,13 @@ export const dataPortfolio = [
         image: "/AFA-store.png",
         urlGithub: "https://github.com/AAgustinAllende/e-commerce",
         urlDemo: "https://afashop-ecommerce.netlify.app/",
+    },
+    {
+        id: 6,
+        title: "Weather App",
+        image: "/weather-app.png",
+        urlGithub: "https://github.com/AAgustinAllende/WeatherApp",
+        urlDemo: "https://climaapp77.netlify.app/",
     }
 ];
 
